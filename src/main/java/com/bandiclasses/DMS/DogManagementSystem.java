@@ -1,20 +1,18 @@
-package com.bandiClasses.DMS;
+package com.bandiclasses.DMS;
 
 import org.springframework.boot.SpringApplication;
+
+
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-/*
- * @author Benitha Sri Panchagiri
- * 
- */
 
 @SpringBootApplication
-public class DogManagementSystemApplication {
+public class DogManagementSystem {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DogManagementSystemApplication.class, args);
+		SpringApplication.run(DogManagementSystem.class, args);
 	}
 
 }

@@ -1,14 +1,10 @@
-package com.bandiClasses.DMS.Models;
+package com.bandiclasses.DMS.Models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 
 
-/*
- * @author Benitha Sri Panchagiri
- * 
- */
 
 @Entity
 public class Dog {
@@ -60,3 +56,5 @@ public class Dog {
 	
 
 }
+
+ 

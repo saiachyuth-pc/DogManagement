@@ -1,4 +1,4 @@
-package com.greeshmaclasses.DMS.repository;
+package com.bandiclasses.DMS.repository;
 
 
 
@@ -7,14 +7,10 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 
 
-import com.greeshmaclasses.DMS.Models.Dog;
+import com.bandiclasses.DMS.Models.Dog;
 
 
-/*
- * @author Greeshma Borra
- * S567537
- * 
- */
+
 
 public interface DogRepository extends CrudRepository<Dog , Integer> {
 	List<Dog> findByName(String Name);
